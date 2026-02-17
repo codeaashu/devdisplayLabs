@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/mac/CODE/Live/devdisplayLabs/src/components/ui/css/WorkBox.module.css"],"sourcesContent":[".box:hover .work {\n  transform: translateX(-40px);\n}\n.box:hover .icon {\n  opacity: 1;\n}\n"],"names":[],"mappings":"AAAA;;;;AAGA","debugId":null}}]
+}

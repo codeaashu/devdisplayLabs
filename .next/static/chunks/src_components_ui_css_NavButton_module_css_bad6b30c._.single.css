@@ -1,0 +1,24 @@
+/* [project]/src/components/ui/css/NavButton.module.css [app-client] (css) */
+.NavButton-module__lcc9MW__iconBox {
+  width: 100%;
+  transition: all 1s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.NavButton-module__lcc9MW__icon {
+  transition: all .5s .2s;
+}
+
+.NavButton-module__lcc9MW__button:hover .NavButton-module__lcc9MW__iconBox {
+  max-width: 1000px;
+  transition: all 2s;
+}
+
+.NavButton-module__lcc9MW__button:hover .NavButton-module__lcc9MW__icon {
+  transition-delay: 0s;
+  transform: rotate(45deg);
+}
+
+/*# sourceMappingURL=src_components_ui_css_NavButton_module_css_bad6b30c._.single.css.map*/

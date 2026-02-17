@@ -1,0 +1,42 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/node_modules_next_dist_8db7fb1f._.js",
+      "static/chunks/src_app_favicon_ico_mjs_243aa161._.js",
+      "static/chunks/src_8db483a0._.js",
+      "static/chunks/node_modules_next_f3277ac5._.js",
+      "static/chunks/node_modules_react-icons_go_index_mjs_f86356b3._.js",
+      "static/chunks/node_modules_react-icons_fa6_index_mjs_79da82bd._.js",
+      "static/chunks/node_modules_react-icons_md_index_mjs_65e576c2._.js",
+      "static/chunks/node_modules_react-icons_bs_index_mjs_8a44a60a._.js",
+      "static/chunks/node_modules_react-icons_lu_index_mjs_9c1f52d1._.js",
+      "static/chunks/node_modules_react-icons_ri_index_mjs_150b4c77._.js",
+      "static/chunks/node_modules_react-icons_lib_844c6c50._.js",
+      "static/chunks/node_modules_motion-dom_dist_es_da948acf._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_5b4aafa7._.js",
+      "static/chunks/node_modules_cbccf65e._.js",
+      "static/chunks/[root-of-the-server]__a23351cd._.css",
+      "static/chunks/src_app_layout_tsx_0a548d63._.js",
+      "static/chunks/node_modules_next_dist_client_components_builtin_global-error_5621f2ed.js",
+      "static/chunks/src_c05e1a34._.js",
+      "static/chunks/node_modules_gsap_57f94e4f._.js",
+      "static/chunks/node_modules_ogl_src_6421afe6._.js",
+      "static/chunks/node_modules_three_build_three_core_996ef05a.js",
+      "static/chunks/node_modules_three_build_three_module_0c59ee63.js",
+      "static/chunks/node_modules_three_examples_jsm_e516ff6b._.js",
+      "static/chunks/node_modules_react-icons_si_index_mjs_86623806._.js",
+      "static/chunks/node_modules_424bee26._.js",
+      "static/chunks/src_components_ui_css_WorkBox_module_26d52d4a.css",
+      "static/chunks/src_app_page_tsx_5621f2ed._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_57d40746._.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js",
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js",
+      "static/chunks/node_modules_next_dist_compiled_5150ccfd._.js",
+      "static/chunks/node_modules_next_dist_client_cf1d9188._.js",
+      "static/chunks/node_modules_next_dist_b0daae9a._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_b3dc30d6._.js",
+      "static/chunks/_a0ff3932._.js",
+      "static/chunks/turbopack-_cdba956c._.js"
+    ]
+  }
+}

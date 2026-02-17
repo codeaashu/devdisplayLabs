@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/ui/css/NavButton.module.css"],"sourcesContent":[".iconBox {\n  transition: 1s;\n  width: 100%;\n  position: absolute;\n  top: 0;\n  right: 0;\n}\n.icon {\n  transition: 0.5s;\n  transition-delay: 0.2s;\n}\n.button:hover .iconBox {\n  max-width: 1000px;\n  transition: 2s;\n}\n.button:hover .icon {\n  transform: rotate(45deg);\n  transition-delay: 0s;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;AAIA;;;;;AAIA"}}]
+}

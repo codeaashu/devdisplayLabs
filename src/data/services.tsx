@@ -1,0 +1,157 @@
+import { IconType } from "react-icons";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { FaCode } from "react-icons/fa6";
+import { BsGraphUpArrow } from "react-icons/bs";
+import { LuBrain, LuCpu } from "react-icons/lu";
+import { RiStethoscopeLine } from "react-icons/ri";
+
+interface ServiceItemProps {
+  title: string;
+  desc?: string;
+  images?: string[];
+}
+
+export type ServiceProps = {
+  icon: IconType;
+  link: string;
+  title: string;
+  pageTitle?: React.ReactNode;
+  description?: string;
+  tagline?: string[];
+  items: ServiceItemProps[];
+};
+
+export const ServicesData: ServiceProps[] = [
+  {
+    icon: MdOutlineDesignServices,
+    title: "Product Design",
+    link: "/design-agency",
+    pageTitle: (
+      <>
+        You think it. <br /> We{" "}
+        <span className="text-secondary font-bold italic mr-3">DESIGN</span> it.
+      </>
+    ),
+    description:
+      "From initial sketches to prototypes fully custom apps, we're your design partner. With a modern approach and cutting-edge tools, we shape every pixel with precision because every detail matters.",
+    tagline: [
+      "Human creativity.",
+      "AI-enhanced speed.",
+      "Designs that think ahead.",
+    ],
+    items: [
+      { title: "User Research & Strategy" },
+      { title: "UX Flows & Wireframes" },
+      { title: "UI Systems & Prototypes" },
+      { title: "Design Ops & Dev Handoff" },
+    ],
+  },
+  {
+    icon: FaCode,
+    title: "Development",
+    link: "/development-agency",
+    pageTitle: (
+      <>
+        Software Developers <br /> you can{" "}
+        <span className="text-secondary font-bold italic mr-3">count on.</span>
+      </>
+    ),
+    description:
+      "From concept to digital reality, we build across all devices, languages, and platforms. Every line of code is crafted with care, ensuring seamless functionality and exceptional performance. Here, every detail matters.",
+    tagline: ["We make tech that", "just makes sense."],
+    items: [
+      { title: "Frontend Platforms (React / Next)" },
+      { title: "Backend APIs & Microservices (Node)" },
+      { title: "Mobile & Cross‑platform (Flutter)" },
+      { title: "CI/CD & Cloud Ops (Docker)" },
+    ],
+  },
+  {
+    icon: BsGraphUpArrow,
+    link: "/gtm-strategy",
+    title: "GTM Strategy",
+    pageTitle: (
+      <>
+        <span className="text-secondary font-bold italic mr-3">
+          Drive Conversions,
+        </span>{" "}
+        <br />
+        Not Useless Traffic
+      </>
+    ),
+    description:
+      "From strategy to execution, we craft marketing campaigns that resonate across all platforms. Every piece of content is designed with purpose, ensuring maximum impact and engagement. Here, every interaction matters.",
+    tagline: ["Campaigns people connect with."],
+    items: [
+      { title: "ICP & Segmentation" },
+      { title: "Positioning, Narrative & Messaging" },
+      { title: "Pricing & Packaging" },
+      { title: "Demand Gen & Content Engine" },
+    ],
+  },
+  {
+    icon: LuBrain,
+    link: "/ai-development",
+    title: "AI Development",
+    pageTitle: (
+      <>
+        AI Development with <br />
+        <span className="text-secondary font-bold italic mr-3">
+          Human Touch
+        </span>
+      </>
+    ),
+    description:
+      "From concept to intelligent systems, we build AI that thinks ahead. Leveraging advanced machine learning and neural networks, our solutions integrate seamlessly, making smarter decisions with minimal human input. Here, every decision matters.",
+    tagline: ["AI that works,", "driven by expert logic."],
+    items: [
+      { title: "LLM Apps & Agents (RAG / Tools)" },
+      { title: "Fine‑tuning & Prompt Optimization" },
+      { title: "Model Evals, Guardrails & Monitoring" },
+      { title: "Vision, NLP & Speech Pipelines" },
+    ],
+  },
+  {
+    icon: RiStethoscopeLine,
+    link: "/healthcare-apps",
+    title: "Healthcare Apps",
+    pageTitle: (
+      <>
+        Web3 Solutions
+        <br />
+        that
+        <span className="text-secondary font-bold italic mr-3">Make Sense</span>
+      </>
+    ),
+    description:
+      "Secure, compliant healthcare software—from telehealth to EHR integrations—built for HIPAA and auditability.",
+    tagline: ["Healthcare,", "designed for compliance."],
+    items: [
+      { title: "HIPAA & PHI Compliance" },
+      { title: "Telehealth & Patient Portals" },
+      { title: "EHR Integrations (FHIR / HL7)" },
+      { title: "Audit Logging & Access Controls" },
+    ],
+  },
+  {
+    icon: LuCpu,
+    link: "/iot-development",
+    title: "IoT Development",
+    pageTitle: (
+      <>
+        Build, connect, update
+        <br />
+        <span className="text-secondary font-bold italic mr-3">at the edge</span>
+      </>
+    ),
+    description:
+      "From device firmware to cloud ingestion—secure, reliable IoT systems with OTA updates and real‑time telemetry.",
+    tagline: ["Hardware + Cloud,", "working together."],
+    items: [
+      { title: "Embedded Firmware & Drivers" },
+      { title: "BLE / Zigbee / LoRa Connectivity" },
+      { title: "MQTT Ingestion & Stream Processing" },
+      { title: "Edge AI & OTA Update Pipelines" },
+    ],
+  },
+];

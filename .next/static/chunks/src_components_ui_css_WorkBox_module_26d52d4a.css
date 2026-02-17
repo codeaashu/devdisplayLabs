@@ -1,0 +1,10 @@
+/* [project]/src/components/ui/css/WorkBox.module.css [app-client] (css) */
+.WorkBox-module__BigLmG__box:hover .WorkBox-module__BigLmG__work {
+  transform: translateX(-40px);
+}
+
+.WorkBox-module__BigLmG__box:hover .WorkBox-module__BigLmG__icon {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=src_components_ui_css_WorkBox_module_26d52d4a.css.map*/
